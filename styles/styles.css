@@ -191,6 +191,7 @@ footer{
     color: #4E47FF;
     text-align: center;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 4px;
 }
 footer p{
   margin: auto;
