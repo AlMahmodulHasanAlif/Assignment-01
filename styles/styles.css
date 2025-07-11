@@ -6,7 +6,7 @@
     font-weight: <weight>;
     font-style: normal;
 }
-.raleway-normal {
+.raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -88,7 +88,7 @@ main {
     font-size: 24px;
     width: 450px;
     color: gray;
-    font-weight: lighter;
+    font-weight:250;
 }
 
 .action-section img {
@@ -183,4 +183,31 @@ main {
 }
 
 /*footer styles*/
-footer {}
+footer{
+    margin-bottom: 7%;
+}
+.footer-title{
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 0px;
+}
+footer p{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  color: 8987A1;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    margin-right: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #8987A1;
+}
