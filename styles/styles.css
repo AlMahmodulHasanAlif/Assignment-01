@@ -145,11 +145,15 @@ main {
 }
 .card{
     padding:40px;
+    box-shadow: 0px 1px 1px grey;
     border-radius: 10px;
     background-color: white;
 }
 .img-text{
     display: flex;
+}
+.pbold{
+    font-weight: bold;
 }
 
 /*contact styles*/
