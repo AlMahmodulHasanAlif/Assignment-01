@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
@@ -17,17 +17,17 @@
             <h3 class="nav-logo">LOGO</h3>
             <a href="#"><button class="btn-primary">Sign Up</button></a>
         </nav>
-        <div class="banner">
+        <div class="banner ">
             <div class="banner-content">
-                <h2 class="banner-title raleway-regular">Cool Dark UI Template for Webflow Agencies!</h2>
+                <h2 class="banner-title raleway-normal">Cool Dark UI Template for Webflow Agencies!</h2>
                 <button class="btn-primary">Stay Focused</button>
             </div>
         </div>
     </header>
     <main>
-        <section class="action-section raleway-regular background-color">
+        <section class="action-section raleway-normal background-color">
             <div class="action-items">
-                <h3 class="action-title">See It in Action</h3>
+                <h3 class="action-title ">See It in Action</h3>
                 <div>
                     <p>Explore the live preview and imagine your brand in this bold new look.</p>
                 </div>
@@ -36,26 +36,41 @@
             <img src="Assets/wc-mini.png" alt="action-image">
         </section>
         <section class="user-section">
-            <h3 class="user-section-title raleway-regular">Joined Thousands of Productive Users</h3>
+            <h3 class="user-section-title raleway-normal">Joined Thousands of Productive Users</h3>
             <div class="all-users">
                 <div class="active-users inter-regular">
-                <h1>50K</h1>
-                <p>Active Users</p>
+                    <h1>50K</h1>
+                    <p>Active Users</p>
+                </div>
+                <div class="active-users inter-regular">
+                    <h1>2M+</h1>
+                    <p>focus sessions</p>
+                </div>
+                <div class="active-users inter-regular">
+                    <h1>95%</h1>
+                    <p>satisfaction rate</p>
+                </div>
             </div>
-            <div class="active-users inter-regular">
-                <h1>2M+</h1>
-                <p>focus sessions</p>
+        </section>
+        <section class="contact">
+            <div class="contact-box">
+                <h4 class="raleway-normal">Let's Get in Touch</h4>
             </div>
-            <div class="active-users inter-regular">
-                <h1>95%</h1>
-                <p>satisfaction rate</p>
-            </div>
+            <div class="contact-box">
+                <form action="">
+                    <label for="Email">Email</label>
+                    <input type="email" name="" id="" placeholder="example@email.com">
+                    <label for="name">Name</label>
+                    <input type="name" name="" id="" placeholder="fullname">
+                    <label for="message">Message</label>
+                    <textarea name="" id="" cols="60" rows="10" placeholder="write your message"></textarea>
+                    <input class="btn-primary" type="submit" value="Get in touch">
+                </form>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer-column"></div>
-        <div class="footer-column"></div>
+
     </footer>
 </body>
 
