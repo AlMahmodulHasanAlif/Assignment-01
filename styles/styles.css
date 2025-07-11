@@ -19,7 +19,7 @@ body{
     padding: 0px;
 }
 header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
 }
 /*nav styles*/
 nav{
@@ -34,12 +34,12 @@ nav{
     color: #4E47FF;
     font-weight: 800;
 }
-/*banner style*/
+/*nav banner style*/
 .banner{
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 200px 267px;
+    padding: 200px 267px;
 }
 .banner-title{
     color: #252432;
@@ -57,6 +57,29 @@ nav{
     border-radius: 10px;
     padding: 15px 30px;
 }
-a:hover{
+.btn-primary:hover{
     background-color: black;
+}
+.background-color{
+    background-color: rgba(78, 71, 255, 0.1);78, 71, 255, 0.1
+}
+/*action section styles*/
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 116px 160px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ .action-section p {
+    font-size: 24px;
+    width: 450px;
+}
+.action-section img{
+    border-radius: 20px;
 }
