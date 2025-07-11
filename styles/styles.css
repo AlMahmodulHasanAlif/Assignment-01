@@ -39,7 +39,7 @@ nav{
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 200px 267px;
+    padding: 120px 267px;
 }
 .banner-title{
     color: #252432;
@@ -87,7 +87,7 @@ main{
 .user-section{
     background-color: #e5e7ff;
     padding: 50px 142px;
-    margin: 130px 160px;
+    margin: 100px 160px;
     border-radius: 15px;
 }
 .user-section-title{
